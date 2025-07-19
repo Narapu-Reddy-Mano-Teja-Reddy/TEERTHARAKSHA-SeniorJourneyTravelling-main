@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 39 100% 98%;
+    --foreground: 36 10% 15%;
+
+    --card: 39 70% 99%;
+    --card-foreground: 36 10% 15%;
+
+    --popover: 39 70% 99%;
+    --popover-foreground: 36 10% 15%;
+
+    --primary: 27 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 207 90% 54%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 36 20% 92%;
+    --muted-foreground: 36 10% 40%;
+
+    --accent: 122 39% 49%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 36 20% 88%;
+    --input: 36 20% 88%;
+    --ring: 27 100% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 27 100% 97%;
+    --sidebar-foreground: 36 10% 25%;
+    --sidebar-primary: 27 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 36 20% 92%;
+    --sidebar-accent-foreground: 36 10% 25%;
+    --sidebar-border: 36 20% 88%;
+    --sidebar-ring: 27 100% 50%;
+  }
+
+  .dark {
+    --background: 36 30% 12%;
+    --foreground: 36 10% 95%;
+
+    --card: 36 30% 15%;
+    --card-foreground: 36 10% 95%;
+
+    --popover: 36 30% 15%;
+    --popover-foreground: 36 10% 95%;
+
+    --primary: 27 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 207 90% 54%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 36 20% 20%;
+    --muted-foreground: 36 10% 70%;
+
+    --accent: 122 39% 35%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 36 30% 25%;
+    --input: 36 30% 25%;
+    --ring: 27 100% 50%;
+
+    --sidebar-background: 36 30% 10%;
+    --sidebar-foreground: 36 10% 90%;
+    --sidebar-primary: 27 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 36 30% 20%;
+    --sidebar-accent-foreground: 36 10% 90%;
+    --sidebar-border: 36 30% 25%;
+    --sidebar-ring: 27 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-poppins;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-yatra;
+  }
+  
+  .senior-friendly-text {
+    @apply text-lg leading-relaxed;
+  }
+  
+  .accessibility-button {
+    @apply text-lg px-6 py-3 rounded-lg shadow-md transition-all duration-300 ease-in-out;
+  }
+  
+  .temple-card {
+    @apply bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300;
+  }
+  
+  .feature-icon {
+    @apply text-saffron w-10 h-10 mb-3;
+  }
+  
+  .focus-ring {
+    @apply focus:ring-4 focus:ring-primary/50 focus:outline-none;
+  }
+  
+  /* Increase contrast for better readability for seniors */
+  .high-contrast {
+    @apply text-foreground font-medium;
+  }
+  
+  /* Larger click/tap targets for seniors */
+  .senior-touch-target {
+    @apply min-h-[48px] min-w-[48px] flex items-center justify-center;
+  }
+  
+  /* Special effects classes */
+  .divine-glow {
+    @apply animate-glow;
+  }
+  
+  .temple-animation {
+    @apply animate-temple-bob;
+  }
+  
+  .sacred-float {
+    @apply animate-float;
+  }
+}
