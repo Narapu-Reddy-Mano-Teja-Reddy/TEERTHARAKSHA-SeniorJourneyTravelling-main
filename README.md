@@ -1,6 +1,6 @@
 # 🛕 TEERTHARAKSHA – Senior Journey Travelling
 
-**Developed by S. Manoj Kumar**
+**Developed by mano teja reddy**
 
 **TEERTHARAKSHA** is a senior-centric travel assistant designed to help elderly individuals and spiritual seekers effortlessly plan safe, meaningful, and culturally enriching temple trips across India. Focused on **comfort, tradition, and accessibility**, the application acts as a voice-enabled trip planner and intelligent companion for senior pilgrims.
 
@@ -64,11 +64,9 @@ TEERTHARAKSHA serves as a **digital bridge between ancient traditions and modern
 
 ## 👨‍💻 Developed By
 
-**S. Manoj Kumar**  
+**MANO TEJA REDDY**  
 AI Developer | Temple Tourism Tech Innovator  
-GitHub: [@SHARABUMANOJKUMAR](https://github.com/SHARABUMANOJKUMAR/teertharaksha-senior-journey)
 
----
 
 ## 📄 License
 
