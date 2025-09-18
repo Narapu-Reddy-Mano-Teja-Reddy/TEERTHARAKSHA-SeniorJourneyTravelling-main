@@ -40,7 +40,7 @@ const TempleShowcase = () => {
       id: 4,
       name: "Meenakshi Temple",
       location: "Madurai, Tamil Nadu",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Madurai_Meenakshi_Amman_Temple.jpg/1200px-Madurai_Meenakshi_Amman_Temple.jpg",
+      image: "https://www.sahyogmantratours.com/images/blogs/meenakshi-temple-20231009101928-1_crop.jpg",
       description: "Historic Hindu temple dedicated to Goddess Meenakshi and Lord Sundareswar.",
       features: ["Special Entry", "Rest Areas", "Guide Service"],
       accessibility: 3.9,
