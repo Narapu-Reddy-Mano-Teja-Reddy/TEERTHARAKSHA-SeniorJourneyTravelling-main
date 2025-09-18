@@ -13,7 +13,7 @@ const TempleShowcase = () => {
       id: 1,
       name: "Tirupati Balaji Temple",
       location: "Andhra Pradesh",
-      image: "https://www.cottage9.com/wp-content/uploads/2021/04/IMG_20190203_090729-1024x768.jpg",
+      image: "https://substackcdn.com/image/fetch/$s_!Hx7x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7dbd7dda-143d-456b-862b-5a316345b745_2000x998.jpeg",
       description: "One of the most visited religious sites in the world, dedicated to Lord Venkateswara.",
       features: ["Wheelchair Access", "Medical Center", "Senior Queue"],
       accessibility: 4.5,
