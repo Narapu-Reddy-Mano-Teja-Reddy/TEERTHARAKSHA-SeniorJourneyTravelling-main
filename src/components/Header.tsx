@@ -35,7 +35,7 @@ const Header = () => {
                 TEERTHARAKSHA
               </h1>
               <span className="text-xs absolute -bottom-4 right-0 text-muted-foreground whitespace-nowrap">
-                -by tenspick group
+                -by TEAM AARTHAS(CAD)
               </span>
             </div>
           </Link>
