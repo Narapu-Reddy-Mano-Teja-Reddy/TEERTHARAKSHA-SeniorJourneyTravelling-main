@@ -31,7 +31,7 @@ const TempleShowcase = () => {
       id: 3,
       name: "Golden Temple",
       location: "Amritsar, Punjab",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Golden_Temple_Reflection.jpg/1200px-Golden_Temple_Reflection.jpg",
+      image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/6b/92/ef/caption.jpg?w=1200&h=-1&s=1",
       description: "The holiest gurdwara and an important pilgrimage site for Sikhs.",
       features: ["Wheelchair Access", "Free Meals", "Senior Facilities"],
       accessibility: 4.8,
